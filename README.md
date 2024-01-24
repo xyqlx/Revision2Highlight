@@ -8,6 +8,10 @@ Convert revisions to highlight in Word document.
 2. for each revision, if the type of revision is Insert/Delete/Moved, close the revision and set its color to green/red. If not, set it to yellow.
 3. save the new document.
 
+## Background
+
+Discussion (in Chinese) is recorded in <https://github.com/xyqlx/docx-diff>.
+
 ## Issues
 
 1. if an exception occurs, Microsoft Word may not close properly.
